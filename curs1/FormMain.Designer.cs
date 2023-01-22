@@ -159,7 +159,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 16);
             this.label1.TabIndex = 4;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            
             // 
             // tabControl1
             // 
@@ -181,7 +181,7 @@
             this.tabPage1.Size = new System.Drawing.Size(857, 605);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Аккорды";
-            this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
+            
             // 
             // tabControl2
             // 
@@ -232,7 +232,7 @@
             this.tabPage7.Size = new System.Drawing.Size(842, 565);
             this.tabPage7.TabIndex = 0;
             this.tabPage7.Text = "До";
-            this.tabPage7.Click += new System.EventHandler(this.tabPage7_Click);
+            
             // 
             // richTextBox1
             // 
@@ -244,7 +244,7 @@
             this.richTextBox1.TabIndex = 3;
             this.richTextBox1.Text = "Мажорное трезвучие образуется из основного тона C, большой терции E и малой терци" +
     "и (чистой квинты от основного тона) G.";
-            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
+            
             // 
             // button1
             // 
@@ -307,7 +307,7 @@
             this.pictureBox3.Size = new System.Drawing.Size(468, 537);
             this.pictureBox3.TabIndex = 3;
             this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            
             // 
             // tabPage13
             // 
@@ -350,7 +350,7 @@
             this.pictureBox2.Size = new System.Drawing.Size(455, 525);
             this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click_1);
+            
             // 
             // tabPage14
             // 
@@ -374,7 +374,7 @@
             this.richTextBox5.TabIndex = 9;
             this.richTextBox5.Text = "Мажорное трезвучие образуется из основного тона F, большой терции A и малой терци" +
     "и (чистой квинты от основного тона) C.";
-            this.richTextBox5.TextChanged += new System.EventHandler(this.richTextBox5_TextChanged);
+            
             // 
             // button5
             // 
@@ -436,7 +436,7 @@
             this.pictureBox5.Size = new System.Drawing.Size(406, 540);
             this.pictureBox5.TabIndex = 5;
             this.pictureBox5.TabStop = false;
-            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
+            
             // 
             // tabPage16
             // 
@@ -449,7 +449,7 @@
             this.tabPage16.Size = new System.Drawing.Size(842, 565);
             this.tabPage16.TabIndex = 5;
             this.tabPage16.Text = "Ля";
-            this.tabPage16.Click += new System.EventHandler(this.tabPage16_Click);
+            
             // 
             // pictureBox7
             // 
@@ -591,7 +591,7 @@
             this.richTextBox9.TabIndex = 7;
             this.richTextBox9.Text = "Минорное трезвучие образуется из основного тона C, малой терции Eb и большой терц" +
     "ии (чистой квинты от основного тона) G.";
-            this.richTextBox9.TextChanged += new System.EventHandler(this.richTextBox9_TextChanged);
+            
             // 
             // tabPage6
             // 
@@ -719,7 +719,7 @@
             this.pictureBox12.Size = new System.Drawing.Size(486, 521);
             this.pictureBox12.TabIndex = 8;
             this.pictureBox12.TabStop = false;
-            this.pictureBox12.Click += new System.EventHandler(this.pictureBox12_Click);
+            
             // 
             // tabPage11
             // 
@@ -732,7 +732,7 @@
             this.tabPage11.Size = new System.Drawing.Size(838, 565);
             this.tabPage11.TabIndex = 4;
             this.tabPage11.Text = "Соль минор";
-            this.tabPage11.Click += new System.EventHandler(this.tabPage11_Click);
+            
             // 
             // button13
             // 
@@ -796,7 +796,7 @@
             this.richTextBox14.TabIndex = 7;
             this.richTextBox14.Text = "Минорное трезвучие образуется из основного тона A, малой терции C и большой терци" +
     "и (чистой квинты от основного тона) E.";
-            this.richTextBox14.TextChanged += new System.EventHandler(this.richTextBox14_TextChanged);
+            
             // 
             // pictureBox14
             // 
@@ -872,7 +872,7 @@
             this.tabPage2.Size = new System.Drawing.Size(857, 605);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Генерация";
-            this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
+            
             // 
             // richTextBox2
             // 
@@ -883,7 +883,7 @@
             this.richTextBox2.Size = new System.Drawing.Size(181, 172);
             this.richTextBox2.TabIndex = 14;
             this.richTextBox2.Text = "Генерация последовательности аккордов из тональности";
-            this.richTextBox2.TextChanged += new System.EventHandler(this.richTextBox2_TextChanged);
+            
             // 
             // buttonDm
             // 
@@ -1013,7 +1013,7 @@
             this.pictureBox6.Size = new System.Drawing.Size(658, 615);
             this.pictureBox6.TabIndex = 0;
             this.pictureBox6.TabStop = false;
-            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
+            
             // 
             // sqLiteCommandBuilder1
             // 
@@ -1047,7 +1047,6 @@
             this.Controls.Add(this.label1);
             this.Name = "FormMain";
             this.Text = "Справочник";
-            this.Load += new System.EventHandler(this.FormMain_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabControl2.ResumeLayout(false);

@@ -22,46 +22,12 @@ namespace curs1
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void FormMain_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             SoundPlayer Simple = new SoundPlayer("do-major.wav");
             Simple.Play();
         }
 
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void button2_Click_1(object sender, EventArgs e)
         {
@@ -81,15 +47,6 @@ namespace curs1
             Simple.Play();
         }
 
-        private void pictureBox6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tabPage2_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void buttonAm_Click(object sender, EventArgs e)
         {
@@ -343,46 +300,6 @@ namespace curs1
             MessageBox.Show(result);
         }
 
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tabPage7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void richTextBox5_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox2_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button4_Click(object sender, EventArgs e)
         {
             SoundPlayer Simple = new SoundPlayer("E.wav");
@@ -402,20 +319,6 @@ namespace curs1
             Simple.Play();
         }
 
-        private void richTextBox9_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox12_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tabPage11_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void button14_Click(object sender, EventArgs e)
         {
@@ -460,30 +363,7 @@ namespace curs1
 
         }
 
-        private void richTextBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tabPage1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tabPage16_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void richTextBox14_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }
 

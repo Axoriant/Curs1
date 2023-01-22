@@ -55,7 +55,6 @@
             this.label1.Size = new System.Drawing.Size(140, 25);
             this.label1.TabIndex = 9;
             this.label1.Text = " Авторизация";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // textBoxPassword
             // 
@@ -66,7 +65,6 @@
             this.textBoxPassword.Size = new System.Drawing.Size(267, 27);
             this.textBoxPassword.TabIndex = 8;
             this.textBoxPassword.UseSystemPasswordChar = true;
-            this.textBoxPassword.TextChanged += new System.EventHandler(this.textBoxPassword_TextChanged);
             // 
             // textBoxLogin
             // 
@@ -77,6 +75,7 @@
             this.textBoxLogin.Name = "textBoxLogin";
             this.textBoxLogin.Size = new System.Drawing.Size(267, 27);
             this.textBoxLogin.TabIndex = 7;
+            
             // 
             // button2
             // 
@@ -143,7 +142,6 @@
             this.label3.Size = new System.Drawing.Size(146, 25);
             this.label3.TabIndex = 12;
             this.label3.Text = "Нет аккаунта?";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -196,7 +194,6 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormAuth";
-            this.Load += new System.EventHandler(this.FormMain_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
