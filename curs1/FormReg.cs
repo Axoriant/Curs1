@@ -25,20 +25,6 @@ namespace curs1
 
         }
 
-        private void Form3_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBoxLogin_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void buttonSubmit_Click(object sender, EventArgs e)
         {

@@ -72,7 +72,7 @@
             this.textBoxLogin.Name = "textBoxLogin";
             this.textBoxLogin.Size = new System.Drawing.Size(236, 22);
             this.textBoxLogin.TabIndex = 9;
-            this.textBoxLogin.TextChanged += new System.EventHandler(this.textBoxLogin_TextChanged);
+            
             // 
             // textBoxPassword_2
             // 
@@ -167,7 +167,6 @@
             this.Controls.Add(this.textBoxLogin);
             this.Name = "FormReg";
             this.Text = "Регистрация";
-            this.Load += new System.EventHandler(this.Form3_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
